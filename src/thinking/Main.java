@@ -6,8 +6,6 @@ public class Main {
         MyInterface myInterface = new Example()::displayMessage;
         // Вызов метода через ссылку
         myInterface.printMessage();
-
-
 //        new Example().displayMessage();
     }
 }
